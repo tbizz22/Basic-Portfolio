@@ -20,15 +20,22 @@ header {
     border-color:#cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 60px;
-    width: 960px;
+    width: 100%;
     display: block;
     margin:0 auto;
     position: relative;
     padding: 0px;
     border-bottom: 1px solid;
     margin-bottom: 60px;
-    margin-top: 0px;
+   /*hacky crap*/
+    margin-top: -16px;
     }
+
+    .headercontent{
+    width: 960px;
+    display: block;
+    margin:0 auto;
+}
 
 li{
     float:right;
@@ -61,6 +68,7 @@ a:hover{
     margin: auto;
     background-color: #ffffff;
     border: 1px solid;
+    margin-bottom: 100px;
     }
 
 .colorsplash {
