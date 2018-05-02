@@ -38,7 +38,7 @@ header {
     margin-bottom: 60px;
    /*hacky crap*/
     margin-top: -16px;
-    }
+}
 
     .headercontent{
     width: 960px;
@@ -88,6 +88,7 @@ a:hover{
 
 .colortext{
     color:#4aaaa5;
+
 }
 .name {
     float: left;
@@ -95,6 +96,7 @@ a:hover{
     color:white;
     align-content: center; 
     text-align: center; 
+    vertical-align: center;
 }    
 
 .about{
@@ -111,11 +113,14 @@ a:hover{
     float:left;
     margin: 15px;
 }
+
+
+
+
 /* Contact Page Classes */
 .formlabel {
     font-size: 150%;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;  
 }
 
 .formentry {
@@ -150,13 +155,14 @@ button {
 
 .portfolio {
     margin: 10px;
+    overflow: auto;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 .portfolioitem {
     float:left;
     margin: 20px;
-    
-
 }
 
 .portfolioimage {
@@ -176,5 +182,4 @@ button {
     color:white;
     font-size:25px;
     line-height: 40px;
-
 }
