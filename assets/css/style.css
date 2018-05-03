@@ -34,16 +34,24 @@ header {
     margin:0 auto;
     position: relative;
     padding: 0px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #cccccc;
     margin-bottom: 60px;
    /*hacky crap*/
     margin-top: -16px;
 }
 
-    .headercontent{
-    width: 960px;
-    display: block;
-    margin:0 auto;
+.headercontent{
+width: 960px;
+display: block;
+margin:0 auto;
+}
+
+.border-right {
+    border-right: 1px solid #cccccc;
+}
+
+.border-left {
+    border-left: 1px solid #cccccc;
 }
 
 li{
@@ -64,6 +72,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     line-height:40px;
     color:white;
+    font-size: 1em;
 }
 
 a:hover{
@@ -76,7 +85,7 @@ a:hover{
     position: relative;
     margin: auto;
     background-color: #ffffff;
-    border: 1px solid;
+    border: 1px solid #dddddd;
     margin-bottom: 100px;
     }
 
@@ -84,6 +93,11 @@ a:hover{
     background-color:#4aaaa5;
     height:60px;
     width:250px;
+}
+
+.header-underline {
+    width: 90%;
+    margin: auto;
 }
 
 .colortext{
@@ -94,13 +108,13 @@ a:hover{
     float: left;
     position: absolute;
     color:white;
-    align-content: center; 
+    line-height: 30px;
     text-align: center; 
-    vertical-align: center;
+    
 }    
 
 .about{
-    padding: 30px;
+    padding: 20px;
     border-bottom: 1px solid;
     border-color:#cccccc;
 }
@@ -114,7 +128,9 @@ a:hover{
     margin: 15px;
 }
 
-
+.bordercolor {
+    border-color:#cccccc;
+}
 
 
 /* Contact Page Classes */
@@ -149,6 +165,10 @@ button {
     border-radius: 12px;
 }
 
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
 
     /*Portfolio Classes */
     
