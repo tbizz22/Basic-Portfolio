@@ -1,12 +1,12 @@
 
-body{
+body {
     background: url("../images/palm-leaf.png");
     background-size:auto;
     padding: 0px;
     margin: 0px;  
 }
 
-p, a,form, footer{
+p, a, form, footer {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none; 
@@ -14,7 +14,7 @@ p, a,form, footer{
     font-size: 18px;
 }
 
-h2{
+h2 {
     font-size: 1.75em;
 }
 
@@ -40,10 +40,10 @@ header {
     margin-top: -16px;
 }
 
-.headercontent{
-width: 960px;
-display: block;
-margin:0 auto;
+.headercontent {
+    width: 960px;
+    display: block;
+    margin:0 auto;
 }
 
 .border-right {
@@ -55,7 +55,7 @@ margin:0 auto;
 }
 
 li{
-    float:right;
+    float: right;
     display: inline;
     padding: 16px;
 } 
@@ -87,7 +87,7 @@ a:hover{
     background-color: #ffffff;
     border: 1px solid #dddddd;
     margin-bottom: 100px;
-    }
+}
 
 .colorsplash {
     background-color:#4aaaa5;
@@ -110,7 +110,6 @@ a:hover{
     color:white;
     line-height: 30px;
     text-align: center; 
-    
 }    
 
 .about{
