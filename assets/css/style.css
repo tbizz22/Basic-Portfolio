@@ -60,6 +60,10 @@ li{
     padding: 16px;
 } 
 
+li:hover {
+background-color: #cccccc;
+}
+
 footer{
     background-color: #666666;
     height:40px;
@@ -142,6 +146,7 @@ a:hover{
 .formentry {
     height: 40px;
     width: 100%;
+    font-size: 1.25em;
 }
 
 .formfield {
