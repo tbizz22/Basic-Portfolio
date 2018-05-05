@@ -147,6 +147,7 @@ a:hover{
     height: 40px;
     width: 100%;
     font-size: 1.25em;
+    color:#777777;
 }
 
 .formfield {
@@ -155,6 +156,7 @@ a:hover{
 
 .messageentry {
     height: 200px;
+    color:#777777;
 }
 
 button {
